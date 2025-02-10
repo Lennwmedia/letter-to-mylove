@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Love U</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="bgoverlay">
+        <div class="container">
+          <span class="ico">
+            <span class="ico2"></span>
+            <span class="title">Touch me baby</span>
+          </span>
+          <div class="endtext">
+            <span class="close" title="Close"><i class="fa fa-times" aria-hidden="true"></i></span>  
+            <h2>Quizás te sorprenda recibir esta carta, no te preocupes, escribirla también fue una sorpresa para mí, cuando comencé a escribir esta carta, pensé que podría decirte todo lo que siento, pero resulta que tampoco es suficiente. Supongo que puedo empezar por recordarte cada día lo mucho que te amo, siempre tuyo</h2>
+            <h2>~</h2>
+            <h3>Lenn</h3>
+          </div>
+        </div>
+      </div>
+      
+
+      <script>
+        // Tu código jQuery aquí
+        $(document).ready(function(){
+            $('.title').click(function(){
+                $('.container').addClass('open');
+            });
+          
+            $('.close').click(function(){
+                $('.container').removeClass('open');
+            });
+        });
+    </script>
+
+  </body>
+</html>
